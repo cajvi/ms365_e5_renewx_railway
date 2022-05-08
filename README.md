@@ -1,6 +1,5 @@
 # 前言
-本Docker基于[SundayRX](https://blog.csdn.net/qq_33212020?type=blog) [E5 Renew X](https://blog.csdn.net/qq_33212020/article/details/119747634)
-用于在railway.app上部署E5更新程序，部署前修改Config.xml中的密码，部署完成后在railway.app应用setting中删除Deployment Trigger
+本Docker基于[SundayRX](https://blog.csdn.net/qq_33212020?type=blog) [E5 Renew X](https://blog.csdn.net/qq_33212020/article/details/119747634)。使用Dockerfile，用于在railway.app上部署E5更新程序，部署前修改Config.xml中的密码，部署完成后在railway.app应用setting中删除Deployment Trigger。
 ## 链接
 
 [Microsoft 365 E5 Renew X Docker 部署](https://www.gladtbam.top/posts/22256/)
