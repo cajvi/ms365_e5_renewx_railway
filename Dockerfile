@@ -22,5 +22,5 @@ WORKDIR /renewx
 EXPOSE 1066
 
 COPY --from=ontology /renewx /renewx
-
+COPY Config.xml /renewx/Deploy/Config.xml
 ENTRYPOINT ["dotnet", "Microsoft365_E5_Renew_X.dll"]
